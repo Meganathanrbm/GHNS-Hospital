@@ -1,10 +1,9 @@
-
-import { atom } from 'recoil';
+import { atom } from 'recoil'
 
 const currentUserState = atom({
   key: 'currentUserState',
   default: {
-    isLoggedIn: false,
+    isLoggedIn: true,
     staffId: null,
     name: '',
     email: '',
@@ -12,8 +11,8 @@ const currentUserState = atom({
     institutionId: null,
     role: '',
     designation: '',
-    departmentId: null,
-  },
-});
+    departmentId: null
+  }
+})
 
-export { currentUserState }; 
+export { currentUserState }

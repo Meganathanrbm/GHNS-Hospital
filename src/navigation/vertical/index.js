@@ -9,38 +9,44 @@ import CreditCardOutline from 'mdi-material-ui/CreditCardOutline'
 import AccountPlusOutline from 'mdi-material-ui/AccountPlusOutline'
 import AlertCircleOutline from 'mdi-material-ui/AlertCircleOutline'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
-import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
-import Groups3OutlinedIcon from '@mui/icons-material/Groups3Outlined';
+import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined'
+import Groups3OutlinedIcon from '@mui/icons-material/Groups3Outlined'
+
+import SpaceDashboardOutlinedIcon from '@mui/icons-material/SpaceDashboardOutlined'
 
 import { Ambulance, Hospital } from 'mdi-material-ui'
 import { DriveEtaRounded } from '@mui/icons-material'
 
 const navigation = () => {
   return [
-  
     {
-      title:'DashBoard',
-      icon:HomeOutline,
-      path:'/'
+      title: 'Home',
+      icon: HomeOutline,
+      path: '/pages/home'
+    },
+    {
+      title: 'DashBoard',
+      icon: SpaceDashboardOutlinedIcon,
+      path: '/'
     },
     // {
     //   sectionTitle: 'Pages'
     // },
     {
-      title:'Ambulance',
-      icon:Ambulance,
-      path:'/pages/Ambulance'
+      title: 'Ambulance',
+      icon: Ambulance,
+      path: '/pages/Ambulance'
     },
     {
       title: 'Hospital',
       icon: Hospital,
       path: '/pages/Hospital'
-    }, 
+    },
     {
       title: 'Account Settings',
       icon: AccountCogOutline,
       path: '/account-settings'
-    },
+    }
   ]
 }
 
