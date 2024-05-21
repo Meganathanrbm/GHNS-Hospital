@@ -26,11 +26,16 @@ const navigation = () => {
     // {
     //   sectionTitle: 'Pages'
     // },
-    {
-      title:'Ambulance',
-      icon:Ambulance,
-      path:'/pages/Ambulance'
-    },
+    // {
+    //   title:'Ambulance',
+    //   icon:Ambulance,
+    //   path:'/pages/Ambulance'
+    // },
+    // {
+    //   title:'register',
+    //   icon:Ambulance,
+    //   path:'/pages/register'
+    // },
     {
       title: 'Hospital',
       icon: Hospital,

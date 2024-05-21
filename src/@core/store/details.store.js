@@ -4,8 +4,8 @@ import { atom } from 'recoil';
 const currentUserState = atom({
   key: 'currentUserState',
   default: {
-    isLoggedIn: false,
-    staffId: null,
+    isLoggedIn:true,
+    hospital_id: '',
     name: '',
     email: '',
     username: '',
