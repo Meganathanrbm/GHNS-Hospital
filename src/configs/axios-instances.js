@@ -2,7 +2,7 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
   withCredentials: true,
-  baseURL: "https://records-backend.vercel.app/api",
+  baseURL: "http://localhost:8008/v1",
 });
 
 const getRequest = (data) => {
