@@ -27,6 +27,11 @@ const navigation = () => {
     //   sectionTitle: 'Pages'
     // },
     {
+      title:'Ambulance',
+      icon:Ambulance,
+      path:'/pages/Ambulance'
+    },
+    {
       title: 'Hospital',
       icon: Hospital,
       path: '/pages/Hospital'
